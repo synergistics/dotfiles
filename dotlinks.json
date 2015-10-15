@@ -1,1 +1,1 @@
-{"xinitrc": {"link_name": "$HOME/.xinitrc", "symbolic": true}, "zshrc": {"link_name": "$HOME/.zshrc", "symbolic": true}, "vimrc": {"link_name": "$HOME/.vimrc", "symbolic": true}}
+{"xinitrc": {"link_name": "$HOME/.xinitrc", "symbolic": true}, "vimrc": {"link_name": "$HOME/.vimrc", "symbolic": true}, "zshrc": {"link_name": "$HOME/.zshrc", "symbolic": true}}
