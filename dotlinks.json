@@ -1,1 +1,1 @@
-{"xinitrc": {"symbolic": true, "path": "$HOME/.xinitrc"}, "zshrc": {"symbolic": true, "path": "$HOME/.zshrc"}, "99-keyboard-modifiers.hwdb": {"path": "/etc/udev/hwdb.d/99-keyboard-modifiers.hwdb", "symbolic": false}, "vimrc": {"symbolic": true, "path": "$HOME/.vimrc"}}
+{"xinitrc": {"link_name": "$HOME/.xinitrc", "symbolic": true}, "zshrc": {"link_name": "$HOME/.zshrc", "symbolic": true}, "vimrc": {"link_name": "$HOME/.vimrc", "symbolic": true}}
