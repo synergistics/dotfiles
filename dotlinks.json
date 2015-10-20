@@ -1,1 +1,1 @@
-{"xinitrc": {"link_name": "$HOME/.xinitrc", "symbolic": true}, "vimrc": {"link_name": "$HOME/.vimrc", "symbolic": true}, "zshrc": {"link_name": "$HOME/.zshrc", "symbolic": true}}
+{"sxhkd": {"symbolic": true, "link_name": "$HOME/.config/sxhkd"}, "vim/vimrc": {"symbolic": true, "link_name": "$HOME/.vimrc"}, "zsh/zshrc": {"symbolic": true, "link_name": "$HOME/.zshrc"}, "Xorg/Xresources": {"symbolic": true, "link_name": "$HOME/.Xresources"}, "bspwm": {"symbolic": true, "link_name": "$HOME/.config/bspwm"}, "Xorg/xinitrc": {"symbolic": true, "link_name": "$HOME/.xinitrc"}}
