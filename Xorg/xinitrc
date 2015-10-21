@@ -4,9 +4,13 @@
 # Put into effect .Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
-# Start bspwm with required hotkey daemon sxhkd
+# Start bspwm with required hotkey daemon sxhkd, and open terminal
 sxhkd &
 urxvt &
 exec bspwm
 
+# Get background up
+source ~/.fehbg 
 
+# Start compton in background from config file
+compton --config ~/.config/compton/compton.conf -b
