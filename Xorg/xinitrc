@@ -9,8 +9,3 @@ sxhkd &
 urxvt &
 exec bspwm
 
-# Get background up
-source ~/.fehbg 
-
-# Start compton in background from config file
-compton --config ~/.config/compton/compton.conf -b
