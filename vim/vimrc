@@ -44,11 +44,6 @@ autocmd VimEnter * :NERDTree | wincmd p
 """ Toggle NERDTree
 nnoremap <leader>nt :NERDTreeToggle<CR>
 
-"" Slimv
-"let g:slimv_impl = 'sbcl'
-"let g:slimv_repl_split=4
-"let g:slimv_swank_cmd = '!sh -c "sbcl --load /home/jking/.vim/bundle/slimv/slime/start-swank.lisp &"'
-
 " GENERAL
 """ Sets number of commands VIM remembers
 set history=700
@@ -73,8 +68,8 @@ set wildmenu
 """ Sets ruler in statusline
 set ruler
 
-""" When list is on, set end of line char to Â¬
-set lcs=eol:Â¬
+""" When list is on, set end of line char to ¬
+set lcs=eol:¬
 
 """ Current line number shown with surrounding relative numbers
 set number
@@ -149,5 +144,4 @@ nmap <leader>q :q!<CR>
 nnoremap j gj
 nnoremap k gk
 
-""" Sets the 0 command to go to the first non-blank character instead of first char on line
 nmap 0 ^

@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-tile '/home/jking/dotfiles/background/nasty_fabric.png' 
+feh --bg-tile '~/dotfiles/background/nasty_fabric.png' 
