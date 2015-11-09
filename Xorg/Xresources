@@ -1,27 +1,7 @@
-#include "~/dotfiles/urxvt/urxvt.Xresources" 
-#include "~/dotfiles/schemes/elephante.Xresources"
+#include "/home/jking/dotfiles/urxvt/urxvt.Xresources" 
+#include "/home/jking/dotfiles/schemes/elefante.Xresources"
 
 *scrollBar: false
-
-!terminal colors
-*foreground: #c5beba
-*background: #121212
-*color0: #302f2e
-*color1: #be503e
-*color2: #7bb292
-*color3: #d7ae38
-*color4: #628b97
-*color5: #c7a095
-*color6: #88a2a4
-*color7: #c5beba
-*color8: #645d59
-*color9: #f0a4af
-*color10: #9ad1bc
-*color11: #c4c18b
-*color12: #bad4f5
-*color13: #e7c6be
-*color14: #a8c1c5
-*color15: #e4e4e4
 
 !font related
 *font: xft:dweep

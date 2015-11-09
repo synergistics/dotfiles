@@ -1,4 +1,6 @@
 source ~/.zsh/history.zsh
+source ~/.zsh/exports.zsh
+source ~/.zsh/aliases.zsh
 
 setopt appendhistory extendedglob nomatch notify
 unsetopt autocd beep
@@ -12,4 +14,3 @@ zstyle ':completion:*' menu select
 setopt completealiases
 setopt sh_word_split
 
-export LANG=en_US.UTF-8

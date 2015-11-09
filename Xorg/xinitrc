@@ -1,4 +1,4 @@
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+[[ -f ~/.Xresources ]] && xrdb -I$HOME ~/.Xresources
 
 sxhkd &
 urxvt &
