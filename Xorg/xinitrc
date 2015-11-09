@@ -1,11 +1,11 @@
-# Automatically load VBoxClient
-/usr/bin/VBoxClient-all
-
 # Put into effect .Xresources
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+[[ -f ~/.Xresources ]] && xrdb -merge -I $HOME ~/.Xresources
 
 # Start bspwm with required hotkey daemon sxhkd, and open terminal
 sxhkd &
 urxvt &
 exec bspwm
 
+# Get font working
+xset +fp /usr/share/fonts/local
+xset fp rehash
