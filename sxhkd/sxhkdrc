@@ -42,6 +42,9 @@ super + {comma,period}
 super + bracket{left,right}
 	bspc desktop -f {prev,next}
 
+super + shift + bracket{left,right}
+  bspc window -d {prev,next}
+
 super + ctrl + {h,j,k,l}
 	bspc window -p {left,down,up,right}
 
@@ -72,6 +75,10 @@ super + !button{1-3}
 super + @button{1-3}
 	bspc pointer -u
 
+super + shift + Return
+  urxvt;
+  #-e bspc window -t floating 
+
 #
 # wm independent hotkeys
 #
@@ -81,6 +88,9 @@ super + Return
 
 super + space
 	dmenu_run
+
+super + x
+  xrdb -merge ~/.Xresources
 
 # make sxhkd reload its configuration files:
 super + Escape

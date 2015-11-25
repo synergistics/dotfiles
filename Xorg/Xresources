@@ -4,4 +4,4 @@
 *scrollBar: false
 
 !font related
-*font: xft:dweep
+*font: xft:DejaVu Sans Mono:size=9

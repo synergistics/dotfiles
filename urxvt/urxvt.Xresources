@@ -2,5 +2,8 @@ urxvt*shading: 5
 
 urxvt.internalBorder: 15
 
-urxvt.font: xft:dweep
+!urxvt.font: xft:dweep
+urxvt.font: xft:DejaVu Sans Mono:size=9
+
+urxvt*scrollBar: false
 
