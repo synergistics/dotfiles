@@ -75,10 +75,6 @@ super + !button{1-3}
 super + @button{1-3}
 	bspc pointer -u
 
-super + shift + Return
-  urxvt;
-  #-e bspc window -t floating 
-
 #
 # wm independent hotkeys
 #
@@ -88,6 +84,9 @@ super + Return
 
 super + space
 	dmenu_run
+
+super + shift + space
+  urxvt -e $(sh -c "ls /usr/bin | dmenu")
 
 super + x
   xrdb -merge ~/.Xresources
