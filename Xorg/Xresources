@@ -1,7 +1,2 @@
 #include "/home/jking/dotfiles/urxvt/urxvt.Xresources" 
 #include "/home/jking/dotfiles/schemes/elefante.Xresources"
-
-*scrollBar: false
-
-!font related
-*font: xft:DejaVu Sans Mono:size=9
