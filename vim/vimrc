@@ -20,6 +20,9 @@ filetype plugin indent on
 Plugin 'gregsexton/Muon'
 Plugin 'synergistics/anderson.vim'
 Plugin 'morhetz/gruvbox'
+" Not needed! La elephante and ryuuko xresources mingle extremely well with
+" one another. A new era has begun!
+Plugin 'synergistics/ryuuko.vim'
 
 """ Option toggling, extra shorthand commands
 Plugin 'tpope/vim-unimpaired' 

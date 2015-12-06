@@ -83,10 +83,10 @@ super + Return
 	urxvt
 
 super + space
-	dmenu_run
+	dmenu_run -b
 
 super + shift + space
-  urxvt -e $(sh -c "ls /usr/bin | dmenu")
+  urxvt -e $(sh -c "ls /usr/bin | dmenu -b")
 
 super + x
   xrdb -merge ~/.Xresources

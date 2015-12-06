@@ -1,2 +1,6 @@
 #include "/home/jking/dotfiles/urxvt/urxvt.Xresources" 
-#include "/home/jking/dotfiles/schemes/elefante.Xresources"
+
+!#include "/home/jking/dotfiles/schemes/elefante.Xresources"
+!#include "/home/jking/dotfiles/schemes/ryuuko.Xresources"
+#include "/home/jking/dotfiles/schemes/test.Xresources"
+

@@ -2,9 +2,16 @@ urxvt*shading: 5
 
 urxvt.internalBorder: 15
 
-!urxvt.font: xft:dweep
+urxvt.font: xft:dweep
 !urxvt.font: xft:DejaVu Sans Mono:size=9
-urxvt.font: xft:Hack:size=9
+!urxvt.font: xft:Hack:size=9
+!urxvt.font: xft:Tamsyn:size=12
+!urxvt.font: xft:Roboto Mono:size=9
+
+!Do not use this one, it's broken
+!urxvt.font: xft:Beep
+
+!urxvt.font: xft:Inconsolata-dz:size=8
 
 urxvt*scrollBar: false
 
