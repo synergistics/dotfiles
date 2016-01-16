@@ -1,2 +1,3 @@
 call plug#begin('~/.vim/plugged')
+Plug 'synergistics/ryuuko.vim'
 call plug#end()

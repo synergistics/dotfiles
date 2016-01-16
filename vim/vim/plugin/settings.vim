@@ -1,8 +1,11 @@
 filetype plugin indent on
 syntax enable
 
+colorscheme ryuuko
+
 set autoindent
 set smarttab
+set expandtab
 
 set hidden 
 
@@ -16,6 +19,7 @@ set relativenumber
 
 set incsearch
 set hlsearch
+set smartcase
 " <C-L> to clear highlighted search (From tpope's vim-sensible)
 if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>

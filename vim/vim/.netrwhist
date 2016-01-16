@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/jking/dotfiles/vim/vim'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/jking/code'
+let g:netrw_dirhist_2='/home/jking/code/learning_haskell'
+let g:netrw_dirhist_3='/home/jking'
+let g:netrw_dirhist_4='/home/jking/code'
+let g:netrw_dirhist_5='/home/jking/code/learning_haskell'

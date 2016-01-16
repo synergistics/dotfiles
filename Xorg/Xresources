@@ -2,5 +2,5 @@
 
 !#include "/home/jking/dotfiles/schemes/elefante.Xresources"
 !#include "/home/jking/dotfiles/schemes/ryuuko.Xresources"
-#include "/home/jking/dotfiles/Xorg/Xresources.d/schemes/test.Xresources"
+#include "/home/jking/dotfiles/Xorg/Xresources.d/schemes/ryuuko.Xresources"
 
