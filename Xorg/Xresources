@@ -1,6 +1,6 @@
-#include "/home/jking/dotfiles/urxvt/urxvt.Xresources" 
+#include "/home/jking/dotfiles/Xorg/Xresources.d/urxvt.Xresources" 
 
 !#include "/home/jking/dotfiles/schemes/elefante.Xresources"
 !#include "/home/jking/dotfiles/schemes/ryuuko.Xresources"
-#include "/home/jking/dotfiles/schemes/test.Xresources"
+#include "/home/jking/dotfiles/Xorg/Xresources.d/schemes/test.Xresources"
 

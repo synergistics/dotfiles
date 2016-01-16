@@ -8,7 +8,7 @@ urxvt.font: xft:dweep
 !urxvt.font: xft:Tamsyn:size=12
 !urxvt.font: xft:Roboto Mono:size=9
 
-!Do not use this one, it's broken
+!Do not use this one, it is broken
 !urxvt.font: xft:Beep
 
 !urxvt.font: xft:Inconsolata-dz:size=8
