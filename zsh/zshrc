@@ -13,3 +13,4 @@ compinit
 zstyle ':completion:*' menu select 
 setopt completealiases
 setopt sh_word_split
+
