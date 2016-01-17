@@ -1,3 +1,5 @@
 call plug#begin('~/.vim/plugged')
 Plug 'synergistics/ryuuko.vim'
+Plug 'tpope/vim-surround'
+Plug 'Raimondi/delimitMate'
 call plug#end()
