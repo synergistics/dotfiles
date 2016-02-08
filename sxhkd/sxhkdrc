@@ -83,10 +83,10 @@ super + Return
 	urxvt
 
 super + space
-	dmenu_run -b
+	dmenu_run -b -dim 0.3 -fn Dweep -x 710 -y 3 -w 500 -sb gray -sf darkslategray
 
 super + shift + space
-  urxvt -e $(sh -c "ls /usr/bin | dmenu -b")
+  urxvt -e $(sh -c "ls /usr/bin | dmenu -b -dim 0.3 -fn Dweep -x 710 -y 3 -w 500 -sb gray -sf darkslategray")
 
 super + x
   xrdb -merge ~/.Xresources

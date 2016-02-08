@@ -1,7 +1,7 @@
 let mapleader = ',' 
 
-nnoremap <silent> <leader>sv :source $MYVIMRC<CR>
-nnoremap <silent> <leader>ev :edit $MYVIMRC<CR>
+nnoremap <silent> <leader>sv :source %<CR>
+nnoremap <silent> <leader>ev :Texplore $HOME/dotfiles/vim<CR>
 
 nnoremap <leader>w :w!<CR>
 nnoremap <leader>q :q!<CR>

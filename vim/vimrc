@@ -2,4 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'synergistics/ryuuko.vim'
 Plug 'tpope/vim-surround'
 Plug 'Raimondi/delimitMate'
+"" Plug 'dag/vim2hs'
+Plug 'godlygeek/tabular'
 call plug#end()
+
